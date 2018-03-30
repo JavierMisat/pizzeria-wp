@@ -14,7 +14,7 @@
     <div class="contenedor">
         <div class="logo">
             <a href="<?= esc_url( home_url( '/' ) ); ?>">
-                <img src="<?= get_template_directory_uri() ?>/img/logo.svg" alt="">
+                <img src="<?= get_template_directory_uri() ?>/img/logo.svg" class="logotipo" alt="">
             </a>
         </div>  <!--.logo -->
 
