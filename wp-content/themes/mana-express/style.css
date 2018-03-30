@@ -29,6 +29,7 @@ body {
 
 header.encabezado-sitio {
     border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 30px;
 }
 
 div.logo {
@@ -63,10 +64,80 @@ img.logotipo {
         top: 0;
         right: 0;
     }
+}
 
-    div.direccion p{
+div.direccion {
+    display: block;
+    clear: both;
+    padding-top: 10px;
+}
+
+div.direccion {
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    div.direccion p {
         text-align: right;
     }
 }
 
+/*** Menu Redes Sociales ***/
 
+nav.sociales ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    nav.sociales ul {
+        float: right;
+    }
+}
+
+header a span.screen-reader-text {
+    display: none;
+}
+
+nav.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav.sociales ul li a:before {
+    font-family: 'Font Awesome\ 5 Brands';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    content: '\f082';
+    font-size: 30px;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav.sociales li a[href*="facebook.com"], a[href*="fb.com"]::before {
+    content: '\f09a';
+}
+
+nav.sociales li a[href*="instagram.com"]::before {
+    content: '\f16d';
+}
+
+nav.sociales li a[href*="pinteres.com"]::before {
+    content: '\f16d';
+}
+
+nav.sociales li a[href*="pinteres.com"]::before {
+    content: '\f0d3';
+}
+
+nav.sociales li a[href*="twitter.com"]::before {
+    content: '\f081';
+}
+
+nav.sociales li a[href*="youtube.com"]::before {
+    content: '\f167';
+}

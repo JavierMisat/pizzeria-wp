@@ -25,8 +25,8 @@
 		            [
 			            'theme_location'  => 'social-menu',
 			            'container'       => 'nav',
-			            'container_class' => 'social-menu',
-			            'container_id'    => 'social-menu',
+			            'container_class' => 'sociales',
+			            'container_id'    => 'sociales',
                         'link_before' => '<span class="screen-reader-text">',
                         'link_after' => '</span>',
                         '',
@@ -37,7 +37,7 @@
             </div><!--.redes-sociales -->
 
             <div class="direccion">
-                <p>Local 2 esq. Calle 152, Cra. 116 #152 - 69, Bogotá </p>
+                <p>Calle 152, Cra. 116 #152 - 69, Bogotá </p>
                 <p>Teléfono: (1) 6971829</p>
             </div>
             
@@ -53,8 +53,8 @@
 			[
 				'theme_location'  => 'header-menu',
 				'container'       => 'nav',
-				'container_class' => 'header-menu',
-				'container_id'    => 'header-menu',
+				'container_class' => 'menu-header',
+				'container_id'    => 'menu-header',
 			];
 
 		wp_nav_menu( $args );
