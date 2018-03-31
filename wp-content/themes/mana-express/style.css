@@ -141,3 +141,41 @@ nav.sociales li a[href*="twitter.com"]::before {
 nav.sociales li a[href*="youtube.com"]::before {
     content: '\f167';
 }
+
+/** Navegación Principal **/
+
+nav.menu-sitio ul {
+    list-style: none;
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav.menu-sitio ul li a {
+    text-align: center;
+    padding: 28px 0;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav.menu-sitio ul li.current_page_item a
+{
+    border-bottom: 8px solid #bb1804;
+}
+
+nav.menu-sitio ul li:hover {
+    background-color: #f19f30;
+    transition: all 0.8s ease 0s;
+}
+
+@media only screen and (min-width: 768px) {
+    nav.menu-sitio ul li {
+        display: table-cell;
+        width: 1%;
+
+    }
+}
