@@ -1,5 +1,15 @@
 <?php
 
+
+/**
+ * Setup the theme
+ */
+
+function manaexpress_setup()
+{
+	add_theme_support('post-thumbnails');
+}
+
 /**
  * Registrar estilos css
  */
@@ -40,5 +50,6 @@ function manaexpress_menus() {
 }
 
 //Añadir acciones al theme
+add_action('after_setup_theme', 'manaexpress_setup');
 add_action( 'init', 'manaexpress_menus' );
 add_action( 'wp_enqueue_scripts', 'manaexpress_styles' );
