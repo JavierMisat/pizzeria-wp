@@ -19,6 +19,10 @@ body {
     box-sizing: border-box;
 }
 
+.text-centrado{
+    text-align: center;
+}
+
 .contenedor {
     max-width: 1100px;
     width: 100%;
@@ -144,14 +148,12 @@ nav.sociales li a[href*="youtube.com"]::before {
 
 /** Navegación Principal **/
 
-nav.menu-sitio
-{
+nav.menu-sitio {
     display: none;
 }
 
 @media only screen and (min-width: 768px) {
-    nav.menu-sitio
-    {
+    nav.menu-sitio {
         display: block;
     }
 }
@@ -174,8 +176,7 @@ nav.menu-sitio ul li a {
     color: #000000;
 }
 
-nav.menu-sitio ul li.current_page_item a
-{
+nav.menu-sitio ul li.current_page_item a {
     border-bottom: 8px solid #a61206;
 }
 
@@ -194,8 +195,8 @@ nav.menu-sitio ul li:hover {
 
 /*** Responsive Menu ***/
 
-@media only screen and (max-width: 767px){
-    .mobile-menu a{
+@media only screen and (max-width: 767px) {
+    .mobile-menu a {
         height: 40px;
         background-color: #a61206;
         width: 100%;
@@ -210,7 +211,69 @@ nav.menu-sitio ul li:hover {
 }
 
 @media only screen and (min-width: 768px) {
-    .mobile-menu a{
+    .mobile-menu a {
         display: none;
     }
+}
+
+/*** Templates Contenido ***/
+
+div.hero
+{
+    background: no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    margin:0 auto;
+    display: table;
+    position: relative;
+}
+
+div.hero:after{
+    position: absolute;
+    top:0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+div.hero .contenido-hero{
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+    position: relative;
+    width: 100vw;
+    z-index: 2;
+}
+
+@media only screen and (min-width: 768px) {
+    div.texto-hero{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    div.texto-hero{
+        width: 60%;
+    }
+}
+
+div.principal {
+    padding: 60px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    div.principal {
+        margin-top: -90px;
+    }
+}
+
+.contenido-paginas p {
+    font-size: 18px;
+    line-height:50px;
 }
