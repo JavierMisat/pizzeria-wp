@@ -46,15 +46,23 @@
     </div>  <!--.contenedor -->
 </header>
 
-<div class="contenedor navegacion">
-	<?php
-	$args =
-		[
-			'theme_location'  => 'header-menu',
-			'container'       => 'nav',
-			'container_class' => 'menu-sitio',
-		];
+<div class="menu-principal">
 
-	wp_nav_menu( $args );
-	?>
+    <div class="mobile-menu">
+        <a href="#" class="mobile"><i class="fas fa-bars"></i> Menu</a>
+    </div>
+
+    <div class="contenedor navegacion">
+		<?php
+		$args =
+			[
+				'theme_location'  => 'header-menu',
+				'container'       => 'nav',
+				'container_class' => 'menu-sitio',
+			];
+
+		wp_nav_menu( $args );
+		?>
+    </div>
 </div>
+

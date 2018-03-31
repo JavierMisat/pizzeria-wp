@@ -144,6 +144,18 @@ nav.sociales li a[href*="youtube.com"]::before {
 
 /** Navegación Principal **/
 
+nav.menu-sitio
+{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    nav.menu-sitio
+    {
+        display: block;
+    }
+}
+
 nav.menu-sitio ul {
     list-style: none;
     display: table;
@@ -164,7 +176,7 @@ nav.menu-sitio ul li a {
 
 nav.menu-sitio ul li.current_page_item a
 {
-    border-bottom: 8px solid #bb1804;
+    border-bottom: 8px solid #a61206;
 }
 
 nav.menu-sitio ul li:hover {
@@ -177,5 +189,28 @@ nav.menu-sitio ul li:hover {
         display: table-cell;
         width: 1%;
 
+    }
+}
+
+/*** Responsive Menu ***/
+
+@media only screen and (max-width: 767px){
+    .mobile-menu a{
+        height: 40px;
+        background-color: #a61206;
+        width: 100%;
+        color: #fff8e5 !important;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu a{
+        display: none;
     }
 }
