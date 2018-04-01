@@ -25,10 +25,9 @@ get_header(); ?>
 <?php endwhile; ?>
 
     <div class="nuestras-especialidades">
-        <h3 class="">Pizzas</h3>
+        <h3 class="texto-rojo">Pizzas</h3>
 
         <div class="contenedor-grid">
-
 
 			<?php
 			$args   =
@@ -42,19 +41,48 @@ get_header(); ?>
 			while ( $pizzas->have_posts() ): $pizzas->the_post();
 				?>
 
-                <div class="">
-                    <?php the_post_thumbnail('especialidades'); ?>
-                   <div class="texto-especialidades">
-                       <h4><?php the_title(); ?> <span class="precio">$<?php the_field('precio'); ?></span></h4>
-                        <?php the_content(); ?>
-                   </div> <!--.texto-especialidades -->
+                <div class="columnas1-3">
+					<?php the_post_thumbnail( 'especialidades' ); ?>
+                    <div class="texto-especialidad">
+                        <h4><?php the_title(); ?> <span class="precio">$<?php the_field( 'precio' ); ?></span></h4>
+						<?php the_content(); ?>
+                    </div> <!--.texto-especialidades-->
                 </div>
 
 
-				<?php endwhile; wp_reset_postdata(); ?>
-        </div>
+			<?php endwhile;
+			wp_reset_postdata(); ?>
+        </div> <!--.contenedor-grid-->
 
-    </div>
 
+        <h3 class="texto-rojo">Otros</h3>
+
+        <div class="contenedor-grid">
+
+			<?php
+			$args   =
+				[
+					'post_type'     => 'especialidades',
+					'post_per_page' => - 1,
+					'orderby'       => 'ASC',
+					'category_name' => 'otros',
+
+				];
+			$pizzas = new WP_Query( $args );
+			while ( $pizzas->have_posts() ): $pizzas->the_post();
+				?>
+
+                <div class="columnas1-3">
+					<?php the_post_thumbnail( 'especialidades' ); ?>
+                    <div class="texto-especialidad">
+                        <h4><?php the_title(); ?> <span class="precio">$<?php the_field( 'precio' ); ?></span></h4>
+						<?php the_content(); ?>
+                    </div> <!--.texto-especialidades-->
+                </div>
+
+			<?php endwhile;
+			wp_reset_postdata(); ?>
+        </div><!--.contenedor-grid-->
+    </div> <!--.nuestras-especialidades-->
 
 <?php get_footer(); ?>
