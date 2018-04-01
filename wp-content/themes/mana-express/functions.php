@@ -7,6 +7,7 @@ function manaexpress_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	add_image_size('nosotros', 437, 291, true);
+	add_image_size('especialidades', 768, 515, true);
 }
 
 /**
@@ -54,7 +55,7 @@ function manaexpress_menus() {
 add_action( 'after_setup_theme', 'manaexpress_setup' );
 add_action( 'init', 'manaexpress_menus' );
 add_action( 'wp_enqueue_scripts', 'manaexpress_styles' );
-
+add_action( 'init', 'manaexpress_especialidades' );
 /**
  * Quitar emojis por defecto de wordpress
  */
@@ -65,3 +66,43 @@ remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
 remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
+
+
+
+function manaexpress_especialidades() {
+	$labels = array(
+		'name'               => _x( 'Pizzas', 'manaexpress' ),
+		'singular_name'      => _x( 'Pizzas', 'post type singular name', 'manaexpress' ),
+		'menu_name'          => _x( 'Pizzas', 'admin menu', 'manaexpress' ),
+		'name_admin_bar'     => _x( 'Pizzas', 'add new on admin bar', 'manaexpress' ),
+		'add_new'            => _x( 'Add New', 'book', 'manaexpress' ),
+		'add_new_item'       => __( 'Add New Pizza', 'manaexpress' ),
+		'new_item'           => __( 'New Pizzas', 'manaexpress' ),
+		'edit_item'          => __( 'Edit Pizzas', 'manaexpress' ),
+		'view_item'          => __( 'View Pizzas', 'manaexpress' ),
+		'all_items'          => __( 'All Pizzas', 'manaexpress' ),
+		'search_items'       => __( 'Search Pizzas', 'manaexpress' ),
+		'parent_item_colon'  => __( 'Parent Pizzas:', 'manaexpress' ),
+		'not_found'          => __( 'No Pizzases found.', 'manaexpress' ),
+		'not_found_in_trash' => __( 'No Pizzases found in Trash.', 'manaexpress' )
+	);
+
+	$args = array(
+		'labels'             => $labels,
+		'description'        => __( 'Description.', 'manaexpress' ),
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => array( 'slug' => 'especialidades' ),
+		'capability_type'    => 'post',
+		'has_archive'        => true,
+		'hierarchical'       => false,
+		'menu_position'      => 6,
+		'supports'           => array( 'title', 'editor', 'thumbnail' ),
+		'taxonomies'          => array( 'category' ),
+	);
+
+	register_post_type( 'especialidades', $args );
+}

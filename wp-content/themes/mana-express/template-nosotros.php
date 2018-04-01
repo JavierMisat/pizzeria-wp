@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Nosotros
+ */
+
+get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
