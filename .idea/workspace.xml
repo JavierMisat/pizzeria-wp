@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0897b397-9f7e-47d9-be72-266beef276fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/home.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,43 +16,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template-especialidades.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/template-especialidades.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-              <folding>
-                <element signature="e#7#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="829">
-              <caret line="503" column="14" lean-forward="false" selection-start-line="503" selection-start-column="14" selection-end-line="503" selection-end-column="14" />
+            <state relative-caret-position="442">
+              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="39" column="71" lean-forward="true" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -75,6 +53,10 @@
       <find>informacion-caja</find>
       <find>lapizzeria</find>
       <find>texto-especialidad</find>
+      <find>thu</find>
+      <find>image</find>
+      <find>media</find>
+      <find>image_</find>
     </findStrings>
     <replaceStrings>
       <replace>manaexpress</replace>
@@ -90,15 +72,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/404.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/js/scripts.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/especialidades.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/page-nosotros.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/template-especialidades.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
       </list>
     </option>
   </component>
@@ -113,10 +95,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -327,15 +308,15 @@
       <workItem from="1522593261298" duration="8778000" />
       <workItem from="1522622886967" duration="637000" />
       <workItem from="1522723795671" duration="1044000" />
-      <workItem from="1522729104531" duration="546000" />
+      <workItem from="1522729104531" duration="11320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52863000" />
+    <option name="totallyTimeSpent" value="63637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -344,16 +325,16 @@
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19803064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19912472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13219616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2713348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -405,14 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8551">
@@ -642,29 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="2623" column="9" lean-forward="false" selection-start-line="2623" selection-start-column="9" selection-end-line="2623" selection-end-column="18" />
-          <folding>
-            <marker date="1517455724000" expanded="true" signature="28736:28749" ph="..." />
-            <marker date="1517455724000" expanded="true" signature="56350:56532" ph="SELECT YEAR(... " />
-            <marker date="1517455724000" expanded="true" signature="57424:57559" ph="SELECT YEAR(... " />
-            <marker date="1517455724000" expanded="true" signature="58324:58568" ph="SELECT YEAR(... " />
-            <marker date="1517455724000" expanded="true" signature="59539:59777" ph="SELECT DISTI... " />
-            <marker date="1517455724000" expanded="true" signature="61181:61239" ph="SELECT * FRO... wp_posts" />
-            <marker date="1517455724000" expanded="true" signature="63544:63639" ph="SELECT 1 as wp_posts" />
-            <marker date="1517455724000" expanded="true" signature="64877:65091" ph="SELECT MONTH... " />
-            <marker date="1517455724000" expanded="true" signature="65120:65351" ph="SELECT MONTH... " />
-            <marker date="1517455724000" expanded="true" signature="65527:65668" ph="..." />
-            <marker date="1517455724000" expanded="true" signature="65662:65668" ph="..." />
-            <marker date="1517455724000" expanded="true" signature="66113:66119" ph="..." />
-            <marker date="1517455724000" expanded="true" signature="66922:66928" ph="..." />
-            <marker date="1517455724000" expanded="true" signature="67021:67256" ph="SELECT DISTI... wp_posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -750,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/template-nosotros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#40#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/media.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4456">
@@ -783,36 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="503" column="14" lean-forward="false" selection-start-line="503" selection-start-column="14" selection-end-line="503" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/template-especialidades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -825,10 +739,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1508904048000" expanded="true" signature="3520:3590" ph="SELECT optio... wp_options" />
+            <marker date="1508904048000" expanded="true" signature="4322:4392" ph="SELECT optio... wp_options" />
+            <marker date="1508904048000" expanded="true" signature="6599:6674" ph="SELECT optio... wp_options" />
+            <marker date="1508904048000" expanded="true" signature="6723:6761" ph="SELECT optio... wp_options" />
+            <marker date="1508904048000" expanded="true" signature="8365:8467" ph="SELECT meta_... wp_sitemeta" />
+            <marker date="1508904048000" expanded="true" signature="16307:16535" ph="INSERT INTO `wp_options`... " />
+            <marker date="1508904048000" expanded="true" signature="18351:18409" ph="SELECT autol... wp_options" />
+            <marker date="1508904048000" expanded="true" signature="40307:40382" ph="SELECT meta_... wp_sitemeta" />
+            <marker date="1508904048000" expanded="true" signature="46456:46530" ph="SELECT meta_... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="887" column="15" lean-forward="false" selection-start-line="887" selection-start-column="9" selection-end-line="887" selection-end-column="15" />
+          <folding>
+            <marker date="1517455724000" expanded="true" signature="28736:28749" ph="..." />
+            <marker date="1517455724000" expanded="true" signature="56350:56532" ph="SELECT YEAR(... " />
+            <marker date="1517455724000" expanded="true" signature="57424:57559" ph="SELECT YEAR(... " />
+            <marker date="1517455724000" expanded="true" signature="58324:58568" ph="SELECT YEAR(... " />
+            <marker date="1517455724000" expanded="true" signature="59539:59777" ph="SELECT DISTI... " />
+            <marker date="1517455724000" expanded="true" signature="61181:61239" ph="SELECT * FRO... wp_posts" />
+            <marker date="1517455724000" expanded="true" signature="63544:63639" ph="SELECT 1 as wp_posts" />
+            <marker date="1517455724000" expanded="true" signature="64877:65091" ph="SELECT MONTH... " />
+            <marker date="1517455724000" expanded="true" signature="65120:65351" ph="SELECT MONTH... " />
+            <marker date="1517455724000" expanded="true" signature="65527:65668" ph="..." />
+            <marker date="1517455724000" expanded="true" signature="65662:65668" ph="..." />
+            <marker date="1517455724000" expanded="true" signature="66113:66119" ph="..." />
+            <marker date="1517455724000" expanded="true" signature="66922:66928" ph="..." />
+            <marker date="1517455724000" expanded="true" signature="67021:67256" ph="SELECT DISTI... wp_posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/template-nosotros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/template-especialidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding>
+            <element signature="e#7#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="457">
+          <caret line="39" column="71" lean-forward="true" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding />
         </state>
       </provider>
