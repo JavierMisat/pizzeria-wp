@@ -44,7 +44,9 @@ h4 {
     font-size: 24px;
 }
 
-.button {
+.button,
+div.comentarios form input[type='submit'] {
+    background-color: #a61206;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     width: auto;
@@ -61,6 +63,7 @@ h4 {
     -ms-transition: all .6s ease;
     -o-transition: all .6s ease;
     transition: all .6s ease;
+    cursor: pointer;
 }
 
 .button.rojo {
@@ -172,7 +175,7 @@ nav.sociales ul {
 }
 
 .sr-text,
-.screen-reader-text{
+.screen-reader-text {
     display: none;
 }
 
@@ -246,7 +249,8 @@ nav.menu-sitio ul li a {
     color: #000000;
 }
 
-nav.menu-sitio ul li.current_page_item a {
+nav.menu-sitio ul li.current_page_item a,
+nav.menu-sitio ul li.current_page_parent a {
     border-bottom: 8px solid #a61206;
 }
 
@@ -610,7 +614,7 @@ div.contenido-entrada p {
 
 /**** SIDEBAR ****/
 
-aside.sidebar{
+aside.sidebar {
     margin-top: 3px;
 }
 
@@ -635,16 +639,17 @@ form.searchform input {
     padding: 10px;
 }
 
-aside.widget{
+aside.widget {
     margin-bottom: 20px;
 }
-aside.widget h3{
-    font-weight:700;
-    font-size:24px;
+
+aside.widget h3 {
+    font-weight: 700;
+    font-size: 24px;
     text-transform: uppercase;
 }
 
-aside.widget ul{
+aside.widget ul {
     list-style: none;
 }
 
@@ -652,11 +657,48 @@ aside.widget ul li {
     margin-bottom: 20px;
 }
 
-aside.widget ul li a{
+aside.widget ul li a {
     color: #000;
     text-decoration: none;
 }
 
-aside.widget ul li a:hover{
+aside.widget ul li a:hover {
     color: #f19f30;
+}
+
+/***** COMENTARIOS ****/
+.comentarios h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+    div.comentarios {
+        width: 60%;
+    }
+}
+
+div.comentarios form label {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+div.comentarios form input,
+div.comentarios form textarea,
+div.comentarios form {
+    padding: 10px;
+    width: calc(100% - 220px);
+}
+
+div.comentarios form input[type='submit'] {
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+p.logged-in-as{
+    color: #a61206;
+    text-align: center;
 }
