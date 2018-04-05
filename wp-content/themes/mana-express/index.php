@@ -53,6 +53,8 @@ $imagen      = wp_get_attachment_image_src( $imagen, 'full' );
 
             </main>
 
+            <?php get_sidebar(); ?>
+
         </div>
     </div>
 

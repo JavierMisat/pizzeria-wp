@@ -44,41 +44,41 @@ h4 {
     font-size: 24px;
 }
 
-.button{
-    font-family:'Open Sans', sans-serif;
+.button {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     width: auto;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    border-radius:8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     color: #fff;
     padding: 15px 80px;
     margin-top: 20px;
     display: inline-block;
     text-decoration: none;
-    -webkit-transition: all.6s  ease;
-    -moz-transition: all.6s  ease;
-    -ms-transition: all.6s  ease;
-    -o-transition: all.6s  ease;
-    transition: all.6s  ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
-.button.rojo{
+.button.rojo {
     background-color: #a61206;
 }
 
-.button:hover{
+.button:hover {
     background-color: #f19f30;
     letter-spacing: 2px;
 }
 
-
 .clear,
-.clear::after{
+.clear::after {
     content: '';
     clear: both;
     display: block;
 }
+
 .texto-rojo {
     color: #a61206;
 }
@@ -171,7 +171,8 @@ nav.sociales ul {
     }
 }
 
-header a span.screen-reader-text {
+.sr-text,
+.screen-reader-text{
     display: none;
 }
 
@@ -575,7 +576,7 @@ header.informacion-entrada div.fecha time span {
     text-transform: uppercase;
 }
 
-header.informacion-entrada .titulo-entrada{
+header.informacion-entrada .titulo-entrada {
     float: right;
     width: calc(100% - 90px);
 }
@@ -602,7 +603,60 @@ p.autor span {
     color: #f19f30;
 }
 
-div.contenido-entrada p{
-    margin-bottom:0;
+div.contenido-entrada p {
+    margin-bottom: 0;
     line-height: 24px;
+}
+
+/**** SIDEBAR ****/
+
+aside.sidebar{
+    margin-top: 3px;
+}
+
+form.searchform {
+    position: relative;
+}
+
+form.searchform #searchsubmit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    text-indent: -9999px;
+    background: #a61206 url("img/buscador.png") no-repeat center center;
+    border: none;
+    cursor: pointer;
+}
+
+form.searchform input {
+    width: 100%;
+    padding: 10px;
+}
+
+aside.widget{
+    margin-bottom: 20px;
+}
+aside.widget h3{
+    font-weight:700;
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+aside.widget ul{
+    list-style: none;
+}
+
+aside.widget ul li {
+    margin-bottom: 20px;
+}
+
+aside.widget ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+aside.widget ul li a:hover{
+    color: #f19f30;
 }
