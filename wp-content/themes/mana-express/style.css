@@ -703,6 +703,15 @@ ul.lista-comentarios li.comment ul.children li {
     color: #a6a6a6;
 }
 
+.paginacion .anteriores,
+.paginacion .siguientes{
+    display: inline-block;
+}
+
+.paginacion .anteriores{
+    margin-right: 20px;
+}
+
 /**** SIDEBAR ****/
 
 aside.sidebar {

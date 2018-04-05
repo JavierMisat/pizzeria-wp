@@ -37,7 +37,7 @@ $imagen      = wp_get_attachment_image_src( $imagen, 'full' );
 
                                 <p class="autor">
                                     <span class="fa fa-user" aria-hidden="true"></span>
-	                                <?= get_the_author_posts_link(); ?>
+									<?= get_the_author_posts_link(); ?>
                                 </p>
                             </div>
 
@@ -52,12 +52,17 @@ $imagen      = wp_get_attachment_image_src( $imagen, 'full' );
 				<?php endwhile; ?>
 
                 <div class="paginacion">
-	                <?= paginate_links(); ?>
+                    <div class="anteriores">
+						<?php previous_posts_link('Anteriores'); ?>
+                    </div>
+                    <div class="siguientes">
+						<?php next_posts_link('Siguientes'); ?>
+                    </div>
                 </div>
 
             </main>
 
-            <?php get_sidebar(); ?>
+			<?php get_sidebar(); ?>
 
         </div>
     </div>
