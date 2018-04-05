@@ -702,3 +702,36 @@ p.logged-in-as{
     color: #a61206;
     text-align: center;
 }
+
+ul.lista-comentarios,
+ul.lista-comentarios ul{
+    list-style: none;
+}
+ul.lista-comentarios li.comment{
+    background-color: #E1E1E1;
+    padding:20px;
+    margin-bottom:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+}
+
+ul.lista-comentarios li.comment cite{
+    color: #a61206;
+    font-size: 20px;
+    font-weight:bold;
+
+}
+ul.lista-comentarios li.comment .comment-author{
+    margin-bottom: 20px;
+}
+
+ul.lista-comentarios li.comment a{
+    color: #a61206;
+    text-decoration: none;
+}
+
+ul.lista-comentarios li.comment ul.children li{
+    background-color: #fff;
+    margin-top: 20px;
+}
