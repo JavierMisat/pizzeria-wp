@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0897b397-9f7e-47d9-be72-266beef276fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +16,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/single.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="618">
+              <caret line="705" column="19" lean-forward="true" selection-start-line="705" selection-start-column="19" selection-end-line="705" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -53,6 +63,7 @@
       <find>nav.sociales</find>
       <find>curren</find>
       <find>sidebar</find>
+      <find>blog</find>
     </findStrings>
     <replaceStrings>
       <replace>manaexpress</replace>
@@ -75,10 +86,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/sidebar.php" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
       </list>
     </option>
@@ -325,7 +336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71886000" />
+    <option name="totallyTimeSpent" value="74125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -788,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="e#220#269#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -814,18 +815,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="735" column="21" lean-forward="false" selection-start-line="735" selection-start-column="21" selection-end-line="735" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/single.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="705" column="19" lean-forward="true" selection-start-line="705" selection-start-column="19" selection-end-line="705" selection-end-column="19" />
           <folding />
         </state>
       </provider>
