@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0897b397-9f7e-47d9-be72-266beef276fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/page-contacto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/page-contacto.php" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/page-contacto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-contacto.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="838" column="19" lean-forward="false" selection-start-line="838" selection-start-column="19" selection-end-line="838" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-contacto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page-contacto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="391">
+              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -80,8 +91,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/mana-express/page-contacto.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/mana-express/style.css" />
       </list>
     </option>
   </component>
@@ -185,6 +196,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaWp-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaWp-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mana-express" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -217,10 +254,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\javie\Documents\Proyectos php\PizzaWp-dev\wp-content\themes\mana-express\img" />
       <recent name="C:\Users\javie\Documents\Proyectos php\PizzaWp-dev\wp-content\themes\mana-express\js" />
       <recent name="C:\Users\javie\Documents\Proyectos php\PizzaWp-dev\wp-content\themes\mana-express\css" />
       <recent name="C:\Users\javie\Documents\Proyectos php\PizzaWp-dev\wp-content\themes\mana-express" />
-      <recent name="C:\Users\javie\Documents\Proyectos php\PizzaWp-dev\wp-content\themes\mana-express\img" />
       <recent name="C:\Users\javie\Documents\Proyectos php\PizzaWp-dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -331,7 +368,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81821000" />
+    <option name="totallyTimeSpent" value="83177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="901" height="1047" extended-state="0" />
@@ -769,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="787" column="16" lean-forward="false" selection-start-line="787" selection-start-column="16" selection-end-line="787" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -787,8 +816,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/page-contacto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="391">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/mana-express/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="838" column="19" lean-forward="false" selection-start-line="838" selection-start-column="19" selection-end-line="838" selection-end-column="19" />
           <folding />
         </state>
       </provider>

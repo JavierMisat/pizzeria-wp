@@ -11,10 +11,11 @@
     </div>
 
     <div class="principal contenedor contacto">
-        <main class="text-centrado contenido-paginas">
-            <h2>Realiza una reservación</h2>
-
+        <main class="contenido-paginas">
             <form class="reservas-contacto" method="POST">
+
+                <h2>Realiza una reservación</h2>
+
                 <div class="campo">
                     <input type="text" placeholder="Nombre" required/>
                 </div>
