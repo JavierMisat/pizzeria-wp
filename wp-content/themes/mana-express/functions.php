@@ -5,9 +5,10 @@
  */
 function manaexpress_setup() {
 	add_theme_support( 'post-thumbnails' );
-
 	add_image_size( 'nosotros', 437, 291, true );
 	add_image_size( 'especialidades', 768, 515, true );
+	update_option('thumbnail_size_w', 253);
+	update_option('thumbnail_size_h', 164);
 }
 
 /**
